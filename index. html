@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Melisa Agustin - Portofolio</title>
+<style>
+* {margin:0; padding:0; box-sizing:border-box; font-family:'Segoe UI', sans-serif;}
+body {background:#fdf2f8; color:#333;}
+header {background:white; padding:15px 20px; display:flex; justify-content:space-between; align-items:center; position:sticky; top:0; box-shadow:0 2px 10px rgba(0,0,0,0.05);}
+.logo {font-size:22px; font-weight:bold; color:#a855f7;}
+nav a {margin:0 10px; text-decoration:none; color:#333; font-weight:500;}
+.btn {background:#a855f7; color:white; padding:10px 18px; border-radius:20px; text-decoration:none; display:inline-block;}
+.hero {display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; padding:50px 20px; max-width:1000px; margin:auto;}
+.hero h1 {font-size:38px; color:#7c3aed; line-height:1.2;}
+.hero h1 span {color:#ec4899;}
+.hero p {margin:15px 0; color:#666; line-height:1.6;}
+.hero img {width:280px; height:280px; object-fit:cover; border-radius:50%; border:6px solid #e9d5ff;}
+section {max-width:1000px; margin:auto; padding:40px 20px;}
+h2 {text-align:center; color:#7c3aed; margin-bottom:20px; font-size:28px;}
+.card {background:white; padding:20px; border-radius:15px; box-shadow:0 4px 15px rgba(0,0,0,0.05); margin-bottom:15px;}
+.skills {display:flex; flex-wrap:wrap; gap:10px; justify-content:center;}
+.skill {background:white; padding:15px 20px; border-radius:12px; font-weight:bold; box-shadow:0 2px 8px rgba(0,0,0,0.05);}
+.karya {display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:15px;}
+.karya div {background:white; border-radius:15px; overflow:hidden; box-shadow:0 4px 15px rgba(0,0,0,0.05); text-align:center; padding-bottom:15px;}
+.karya img {width:100%; height:160px; object-fit:cover;}
+footer {background:#a855f7; color:white; text-align:center; padding:20px; margin-top:30px;}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">Melisa.</div>
+  <nav><a href="#tentang">Tentang</a><a href="#skill">Skill</a><a href="#karya">Karya</a></nav>
+  <a class="btn" href="#kontak">Hubungi Saya</a>
+</header>
+<div class="hero">
+  <div style="flex:1; min-width:280px;">
+    <h1>Halo, Saya <span>Melisa Agustin</span><br>Creative & Multitalenta</h1>
+    <p>Halo! Saya Melisa Agustin dari Lampung. Saya suka bikin desain, website, dan konten. Ini adalah tempat saya menampilkan semua karya terbaik saya.</p>
+    <a class="btn" href="#karya">Lihat Karya Saya</a>
+  </div>
+  <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500" alt="Foto Melisa">
+</div>
+<section id="tentang">
+  <h2>Tentang Saya</h2>
+  <div class="card">
+    <p><b>Siapa Saya?</b><br><br>Saya adalah seseorang yang suka belajar hal baru dan suka berkarya. Saya percaya setiap ide bisa jadi sesuatu yang besar kalau dikerjakan dengan sungguh-sungguh.</p><br>
+    <p><b>Lokasi:</b> Lampung, Indonesia</p>
+    <p><b>Minat:</b> Desain, Website, Foto, Bisnis</p>
+  </div>
+</section>
+<section id="skill">
+  <h2>Skill Saya</h2>
+  <div class="skills">
+    <div class="skill">🎨 Desain Canva</div>
+    <div class="skill">💻 Bikin Website</div>
+    <div class="skill">📸 Foto & Edit</div>
+    <div class="skill">📱 Konten / Sosmed</div>
+  </div>
+</section>
+<section id="karya">
+  <h2>Karya Terpilih</h2>
+  <div class="karya">
+    <div><img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500"><h3 style="margin-top:10px;">Desain Poster</h3><p>Desain promosi & poster</p></div>
+    <div><img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=500"><h3 style="margin-top:10px;">Website Portofolio</h3><p>Website pribadi</p></div>
+    <div><img src="https://images.unsplash.com/photo-1493863641943-9b68992a8d07?w=500"><h3 style="margin-top:10px;">Fotografi</h3><p>Hasil foto & editing</p></div>
+  </div>
+</section>
+<section id="kontak">
+  <h2>Hubungi Saya</h2>
+  <div class="card" style="text-align:center;">
+    <p>📧 Email: melisa@email.com</p>
+    <p>📱 Instagram: @melisaagustin</p>
+    <p>📍 Lampung, Indonesia</p><br>
+    <a class="btn" href="https://wa.me/6281234567890">Chat WhatsApp</a>
+  </div>
+</section>
+<footer>© 2026 Melisa Agustin - Dibuat dengan ❤️</footer>
+</body>
+</html>
